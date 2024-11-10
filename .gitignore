@@ -1,0 +1,139 @@
+# .NET Core / ASP.NET Core
+## Ignore build output directories
+bin/
+obj/
+
+## User-specific files
+*.swp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## ASP.NET Scaffolding
+.scaffolding
+
+## Entity Framework
+*.edmx
+*.tt
+*.sql
+*.dbo
+
+## Azure related
+.vscode/*
+.vscode/**/*
+*.launch.json
+.vs/
+.vs/**/*
+
+## Windows specific
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.dbmdl
+*.jfm
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+.idea/**
+
+## Mac OS specific
+*.DS_Store
+
+## JetBrains Rider
+.idea/
+
+# npm package files
+node_modules/
+npm-debug.log*
+yarn-error.log
+yarn-debug.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Webpack's output directory
+build/
+dist/
+
+# Compiled JavaScript files from TypeScript or Babel
+*.tsbuildinfo
+.cache/
+coverage/
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# .NET Core Config / App Settings Files
+appsettings.json
+appsettings.*.json
+
+# React specific
+/build
+/node_modules
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Jest Testing
+/coverage
+*.lcov
+*.lcov.info
+*.lcov-report
+
+# ESLint cache
+.eslintcache
+
+# Webpack cache
+.cache
+.cache-loader
+
+# Optional npm cache directory
+.npm/
+
+# SASS Cache
+.sass-cache/
+
+# Compiled CSS from SASS/SCSS
+*.css.map
+*.scss.map
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# macOS Finder file
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows thumbnails
+Thumbs.db
+
+# Ignore build output folders for both backend and frontend
+/backend/bin
+/backend/obj
+/frontend/build
+/frontend/dist
+
+# Ignore any other unnecessary project-related folders
+/.parcel-cache/
+.vscode/
+.editorconfig
