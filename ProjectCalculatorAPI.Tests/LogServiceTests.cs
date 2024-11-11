@@ -43,7 +43,7 @@ namespace ProbabilityCalculatorAPI.Tests
                 Result = 0.25
             };
 
-            // Set up the formatter mock to return a specific formatted string
+            // Set up the formatter mock
             _logMessageFormatterMock.Setup(formatter => formatter.Format(logEntry))
                 .Returns("2023-11-01: Operation=CombinedWith, P(A)=0.5, P(B)=0.5, Result=0.25");
 

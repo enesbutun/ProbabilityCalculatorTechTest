@@ -1,5 +1,4 @@
 ﻿using ProbabilityCalculatorAPI.Model;
-using System.Threading.Tasks;
 
 namespace ProbabilityCalculatorAPI.Services
 {

@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Configuration;
-
+﻿
 namespace ProbabilityCalculatorAPI.Services
 {
     public class LoggingServiceFactory

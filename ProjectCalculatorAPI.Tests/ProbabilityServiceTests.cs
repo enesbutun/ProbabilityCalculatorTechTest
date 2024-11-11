@@ -2,7 +2,6 @@ using Moq;
 using Xunit;
 using ProbabilityCalculatorAPI.Services;
 using ProbabilityCalculatorAPI.Model;
-using ProbabilityCalculatorAPI.Exceptions;
 
 namespace ProbabilityCalculatorAPI.Tests
 {

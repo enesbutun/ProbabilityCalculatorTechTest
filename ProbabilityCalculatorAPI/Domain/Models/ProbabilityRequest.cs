@@ -10,8 +10,7 @@ namespace ProbabilityCalculatorAPI.Model
         [Range(0, 1, ErrorMessage = "ProbabilityB must be between 0 and 1.")]
         public double ProbabilityB { get; set; }
 
-        [Required(ErrorMessage = "Operation is required.")]
-       // [EnumOperationType(typeof(OperationType))]
+        [Required(ErrorMessage = "Operation is required.")]      
         public OperationType Operation { get; set; }  
     }
 }

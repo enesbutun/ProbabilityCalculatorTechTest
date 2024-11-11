@@ -76,13 +76,9 @@ dist/
 coverage/
 
 # Environment variable files
-.env
 .env.local
 .env.*.local
 
-# .NET Core Config / App Settings Files
-appsettings.json
-appsettings.*.json
 
 # React specific
 /build

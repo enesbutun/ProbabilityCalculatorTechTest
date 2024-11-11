@@ -82,7 +82,7 @@ namespace ProbabilityCalculatorAPI.Tests
         {
             var strategy = new EitherStrategy();
             var result = strategy.Calculate(0.3, 0.7);
-            Assert.Equal(0.79, result, 2); // 0.3 + 0.7 - (0.3 * 0.7) = 0.79 (rounded to 2 decimal places)
+            Assert.Equal(0.79, result, 2); // 0.3 + 0.7 - (0.3 * 0.7) = 0.79
         }
     }
 
